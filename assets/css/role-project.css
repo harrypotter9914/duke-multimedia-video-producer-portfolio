@@ -192,6 +192,52 @@ nav a:hover, nav a:focus-visible {
     border-radius: 24px;
   }
 
+  .role-cinema-detail .project-hero {
+    padding-top: 1.2rem;
+  }
+
+  .role-cinema-detail .project-hero-card {
+    min-height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    border-radius: 28px;
+    padding: 3.2rem 1rem 1rem;
+  }
+
+  .role-cinema-detail .project-hero-card::before {
+    height: 28px;
+    background-size: auto;
+  }
+
+  .role-cinema-detail .project-hero-card > *,
+  .role-cinema-detail .project-hero-copy {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .role-cinema-detail .project-hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.25rem, 13vw, 3.4rem);
+  }
+
+  .role-cinema-detail .project-summary {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .role-cinema-detail .project-tag-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .role-cinema-detail .project-tag {
+    width: 100%;
+    justify-content: center;
+    white-space: normal;
+    text-align: center;
+  }
+
   .role-cinema-detail .project-metric-grid {
     grid-template-columns: 1fr;
   }
@@ -202,5 +248,14 @@ nav a:hover, nav a:focus-visible {
 
   .role-cinema-detail .project-metric strong {
     overflow-wrap: anywhere;
+  }
+
+  .role-cinema-detail .project-action-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .role-cinema-detail .project-pill {
+    width: 100%;
   }
 }
