@@ -123,7 +123,7 @@ const projectMeta = {
     },
     "volunteer-project3.html": {
         category: "Community",
-        summary: "A campus library service role focused on student experience, programming, and inclusive cultural activity.",
+        summary: "A campus library service experience focused on student experience, programming, and inclusive cultural activity.",
         tags: ["Service Design", "Programming", "Community"],
         layout: "gallery"
     },
