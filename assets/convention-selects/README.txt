@@ -1,0 +1,1 @@
+Place future curated convention/cosplay portrait selects here. Suggested set: 18-24 images total, 8-12 subjects, no more than 2-3 images per subject, with 4-6 hero portraits plus environmental/detail shots.
